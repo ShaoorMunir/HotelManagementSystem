@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'returnofhms.herokuapp.com' ]
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'returnofhms.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
