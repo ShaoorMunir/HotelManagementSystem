@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c80581fa-7fb5-4d96-9f42-f561e0e245cd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/HMS/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/HMS/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReturnOfHMS/settings/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReturnOfHMS/settings/common.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HMS/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="103" column="14" lean-forward="true" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+            <state relative-caret-position="289">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -131,6 +132,7 @@
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/ReturnOfHMS/settings/common.py" />
+        <option value="$PROJECT_DIR$/HMS/templates/base.html" />
       </list>
     </option>
   </component>
@@ -458,8 +460,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HMS/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="103" column="14" lean-forward="true" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
