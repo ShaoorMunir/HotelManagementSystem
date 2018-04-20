@@ -88,10 +88,10 @@ class Registeration (models.Model):
     checkout_time = models.DateTimeField()
 
 
-class image (models.Model):
+class Image (models.Model):
     room_id = models.ForeignKey(
         "Room", on_delete=models.CASCADE)
-    image_id = models.AutoField()
+    image_id = models.AutoField(primary_key=True)
     url = models.CharField(max_length=1000)
     description = models.CharField(null=True, max_length=1000)
 
