@@ -13,8 +13,6 @@ class Profile(models.Model):
     USER_TYPE_CHOICES = (
         (1, 'Customer'),
         (2, 'Admin'),
-        (3, 'Presidential'),
-        (4, 'Business'),
     )
 
     user = models.OneToOneField(User, on_delete=models.CASCADE)
