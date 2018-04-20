@@ -37,7 +37,7 @@ def save_user_profile(sender, instance, **kwargs):
 class RoomType (models.Model):
 
     type_id = models.IntegerField()
-    type_name = models.CharField()
+    type_name = models.CharField(max_length=30)
     wifi = models.BooleanField(default=False)
     room_service = models.BooleanField(default=False)
     breakfast = models.BooleanField(default=False)
@@ -68,7 +68,7 @@ class Room (models.Model):
     room_type = models.ForeignKey(
         RoomType, on_delete=models.CASCADE, choices=ROOM_TYPE_CHOICES)
     occupied = models.BooleanField(default=False)
-    price = models.DecimalField()
+    price = models.IntegerField()
     capacity = models.IntegerField()
 
     class Meta:
@@ -90,7 +90,10 @@ class Registeration (models.Model):
 
 class image (models.Model):
     room_id = models.ForeignKey(
-        "Room", on_delete=models.CASCADE, primary_key=True)
-    image_id = models.AutoField(primary_key=True)
-    url = models.CharField()
-    description = models.CharField(null=True)
+        "Room", on_delete=models.CASCADE)
+    image_id = models.AutoField()
+    url = models.CharField(max_length=1000)
+    description = models.CharField(null=True, max_length=1000)
+
+    class Meta:
+        unique_together =(('image_id', 'room_id'),)
