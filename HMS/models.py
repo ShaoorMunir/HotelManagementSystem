@@ -18,7 +18,7 @@ class Profile(models.Model):
     )
 
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    user_type = models.IntegerField()
+    user_type = models.IntegerField(choices=USER_TYPE_CHOICES)
     location = models.CharField(max_length=30, blank=True)
     birth_date = models.DateField(null=True, blank=True)
 
