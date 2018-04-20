@@ -62,7 +62,7 @@ class Room (models.Model):
         (4, 'Business'),
     )
 
-    room_number = models.IntegerField()
+    room_number = models.AutoField(primary_key=True)
     room_type = models.ForeignKey(
         RoomType, on_delete=models.CASCADE, choices=ROOM_TYPE_CHOICES)
     occupied = models.BooleanField(default=False)
@@ -87,11 +87,11 @@ class Registeration (models.Model):
 
 
 class Image (models.Model):
-    room_id = models.ForeignKey(
-        "Room", on_delete=models.CASCADE)
+    room_number = models.ForeignKey(
+        Room, on_delete=models.CASCADE)
     image_id = models.AutoField(primary_key=True)
     url = models.CharField(max_length=1000)
     description = models.CharField(null=True, max_length=1000)
 
     class Meta:
-        unique_together =(('image_id', 'room_id'),)
+        unique_together =(('image_id', 'room_number'),)
