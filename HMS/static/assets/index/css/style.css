@@ -617,11 +617,6 @@ display:inline-block;
 margin:1%;
 }
 .rooms{
-background:url(../images/rooms.jpg) repeat-y 0px 0px;
-background-size:cover;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
 min-height:788px;
 padding:2% 0 8% 0;
 }

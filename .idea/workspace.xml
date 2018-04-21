@@ -31,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HMS/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="104" column="20" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="23" />
+            <state relative-caret-position="221">
+              <caret line="154" column="18" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/HMS/static/assets/index/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="591" column="9" selection-start-line="591" selection-start-column="9" selection-end-line="591" selection-end-column="9" />
+              <caret line="618" column="7" selection-start-line="618" selection-start-column="7" selection-end-line="618" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -681,15 +681,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HMS/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="104" column="20" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="23" />
+        <state relative-caret-position="221">
+          <caret line="154" column="18" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HMS/static/assets/index/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="591" column="9" selection-start-line="591" selection-start-column="9" selection-end-line="591" selection-end-column="9" />
+          <caret line="618" column="7" selection-start-line="618" selection-start-column="7" selection-end-line="618" selection-end-column="7" />
         </state>
       </provider>
     </entry>
