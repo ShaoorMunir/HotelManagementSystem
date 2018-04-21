@@ -2,142 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c80581fa-7fb5-4d96-9f42-f561e0e245cd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/css/JFFormStyle-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/css/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/c66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/det_pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/hotel1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/hotel2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/iocn3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/nav.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/package-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/pic3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/pic4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/pic5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/pic6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/rooms.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/ser_pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/ser_pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/ser_pic3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/ser_pic4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/ser_pic5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/ser_pic6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/ser_pic7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/ser_pic8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/images/splits.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/js/JFCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/js/JFForms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/js/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/js/jquery.flexisel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HMS/static/assets/index/js/responsiveslides.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/bootstrap-datepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/cs-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/cs-skin-border.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/flexslider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/icomoon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/HMS/static/assets/index/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HMS/static/assets/index/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/superfish.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/themify-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/flaticon/flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/flaticon/flaticon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/flaticon/flaticon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/flaticon/flaticon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/flaticon/flaticon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/flaticon/flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/flaticon/license.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/icomoon/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/icomoon/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/icomoon/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/icomoon/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/themify/themify.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/themify/themify.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/themify/themify.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/fonts/themify/themify.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/arrow_down_input.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/hotel_feture_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/hotel_feture_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/hotel_feture_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/image-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/image-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/image-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/loc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/slider1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/slider2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/slider3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/svg/bicycle14.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/svg/car72.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/svg/cup74.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/svg/massage2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/svg/restaurant23.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/svg/swimming21.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/tab_img_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/tab_img_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/tab_img_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/tab_img_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/tab_img_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/images/tab_img_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/bootstrap-datepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/classie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/google_map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/hoverIntent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/jquery-2.1.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/jquery.countTo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/jquery.flexslider-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/jquery.stellar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/jquery.waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/modernizr-2.6.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/selectFx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/js/superfish.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HMS/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HMS/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,8 +32,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HMS/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="243" column="14" lean-forward="true" selection-start-line="243" selection-start-column="14" selection-end-line="243" selection-end-column="14" />
+            <state relative-caret-position="163">
+              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -206,8 +71,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HMS/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+            <state relative-caret-position="259">
+              <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -769,16 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HMS/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HMS/static/assets/index/images/svg/car72.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -795,10 +650,20 @@
     <entry file="file://$PROJECT_DIR$/HMS/static/assets/index/js/JFCore.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/HMS/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="124" column="31" lean-forward="true" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HMS/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="243" column="14" lean-forward="true" selection-start-line="243" selection-start-column="14" selection-end-line="243" selection-end-column="14" />
+        <state relative-caret-position="163">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
         </state>
       </provider>
     </entry>
