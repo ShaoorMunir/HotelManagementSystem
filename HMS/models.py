@@ -65,8 +65,7 @@ class Room(models.Model):
     room_type = models.ForeignKey(
         RoomType, on_delete=models.CASCADE, choices=ROOM_TYPE_CHOICES)
     occupied = models.BooleanField(default=False)
-    price = models.IntegerField('Price of the room', help_text='Enter the price of the room'
-    ))
+    price = models.IntegerField('Price of the room', help_text='Enter the price of the room')
     capacity = models.IntegerField()
 
     class Meta:
