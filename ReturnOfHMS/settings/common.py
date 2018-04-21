@@ -11,6 +11,12 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+import cloudinary
+
+
+CLOUDINARY_CLOUD_NAME = "effingcloud"
+CLOUDINARY_API_KEY = "593956673313415"
+CLOUDINARY_API_SECRET = "MkpB9Ze8GTWGRdRTwqDrnsdWPkY"
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'HMS',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
@@ -122,4 +129,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, '../HMS/static'),
+)
+
+cloudinary.config(
+    cloud_name = CLOUDINARY_CLOUD_NAME,
+    api_key = CLOUDINARY_API_KEY,
+    api_secret = CLOUDINARY_API_SECRET
 )
