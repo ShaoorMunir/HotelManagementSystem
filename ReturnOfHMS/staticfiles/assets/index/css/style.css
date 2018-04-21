@@ -590,11 +590,6 @@ p.para{
 	background: #228AC6;
 }
 .package{
-background:url(../images/package-bg.jpg) no-repeat 0px 0px;
-background-size:cover;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
 min-height:500px;
 padding:4% 0 0 0;
 border-bottom:1px solid #939597;
@@ -1159,7 +1154,7 @@ line-height: 1.8em;
 	padding-right:5px;
 }
 .end:after{
-	content: url(../images/quote-2.png);
+	content: url({../images/quote-2.png);
 	vertical-align: super;
 	padding-right:5px;
 }

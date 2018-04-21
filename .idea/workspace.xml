@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c80581fa-7fb5-4d96-9f42-f561e0e245cd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/HMS/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HMS/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HMS/static/assets/index/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HMS/static/assets/index/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HMS/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+            <state relative-caret-position="187">
+              <caret line="104" column="20" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HMS/static/assets/index/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="591" column="9" selection-start-line="591" selection-start-column="9" selection-end-line="591" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -134,6 +143,7 @@
         <option value="$PROJECT_DIR$/HMS/admin.py" />
         <option value="$PROJECT_DIR$/HMS/models.py" />
         <option value="$PROJECT_DIR$/HMS/templates/index.html" />
+        <option value="$PROJECT_DIR$/HMS/static/assets/index/css/style.css" />
       </list>
     </option>
   </component>
@@ -182,6 +192,23 @@
               <item name="HMS" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReturnOfHMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReturnOfHMS" type="462c0819:PsiDirectoryNode" />
+              <item name="HMS" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReturnOfHMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReturnOfHMS" type="462c0819:PsiDirectoryNode" />
+              <item name="HMS" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ReturnOfHMS" type="b2602c69:ProjectViewProjectNode" />
@@ -636,13 +663,6 @@
     <entry file="file://$PROJECT_DIR$/HMS/static/assets/index/images/svg/car72.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HMS/static/assets/index/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HMS/static/assets/index/js/custom.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -661,8 +681,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HMS/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+        <state relative-caret-position="187">
+          <caret line="104" column="20" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HMS/static/assets/index/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="591" column="9" selection-start-line="591" selection-start-column="9" selection-end-line="591" selection-end-column="9" />
         </state>
       </provider>
     </entry>
