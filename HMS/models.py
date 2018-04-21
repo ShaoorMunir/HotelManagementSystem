@@ -1,3 +1,5 @@
+from django.utils import timezone
+
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
@@ -11,9 +13,12 @@ from cloudinary.models import CloudinaryField
 
 class Profile(models.Model):
     # Options to show to the user when adding a new room
+
+    CUSTOMER = 'CUSTOMER'
+    ADMIN = 'ADMIN'
     USER_TYPE_CHOICES = (
-        (1, 'Customer'),
-        (2, 'Admin'),
+        (CUSTOMER, 'Customer'),
+        (ADMIN, 'Admin'),
     )
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     user_type = models.IntegerField(choices=USER_TYPE_CHOICES)
@@ -33,40 +38,35 @@ def save_user_profile(sender, instance, **kwargs):
     instance.profile.save()
 
 
-class RoomType(models.Model):
-    type_id = models.IntegerField()
-    type_name = models.CharField(max_length=30)
-    wifi = models.BooleanField(default=False)
-    room_service = models.BooleanField(default=False)
-    breakfast = models.BooleanField(default=False)
-    shuttle_service = models.BooleanField(default=False)
-    mini_bar = models.BooleanField(default=False)
-    gym = models.BooleanField(default=False)
-
-    class Meta:
-        ordering = ["type_id", "type_name"]
-        verbose_name = 'Room Type'
-        verbose_name_plural = 'Room Types'
-
-    def __str__(self):
-        return self.type_name
-
-
 class Room(models.Model):
     # Options to show to the user when adding a new room
+
+    EXECUTIVE = 'EXECUTIVE'
+    DELUXE = 'DELUXE'
+    PRESIDENTIAL = 'PRESIDENTIAL'
+    BUSINESS = 'BUSINESS'
+
     ROOM_TYPE_CHOICES = (
-        (1, 'Executive'),
-        (2, 'Deluxe'),
-        (3, 'Presidential'),
-        (4, 'Business'),
+        (EXECUTIVE, 'Executive'),
+        (DELUXE, 'Deluxe'),
+        (PRESIDENTIAL, 'Presidential'),
+        (BUSINESS, 'Business'),
     )
 
     room_number = models.AutoField(primary_key=True)
-    room_type = models.ForeignKey(
-        RoomType, on_delete=models.CASCADE, choices=ROOM_TYPE_CHOICES)
+    room_type = models.CharField(choices=ROOM_TYPE_CHOICES, max_length=100)
     occupied = models.BooleanField(default=False)
     price = models.IntegerField('Price of the room', help_text='Enter the price of the room')
     capacity = models.IntegerField()
+    wifi = models.BooleanField(default=False)
+    room_service = models.BooleanField(default=False)
+    electronic_safe = models.BooleanField(default=False)
+    bar = models.BooleanField(default=False)
+    restaurant = models.BooleanField(default=False)
+    pick_up = models.BooleanField(default=False)
+    spa = models.BooleanField(default=False)
+    swimming_pool = models.BooleanField(default=False)
+    gym = models.BooleanField(default=False)
 
     class Meta:
         ordering = ["room_number", "room_type"]
@@ -74,7 +74,7 @@ class Room(models.Model):
         verbose_name_plural = 'Rooms'
 
     def __str__(self):
-        return str(self.room_number)
+        return str(self.room_type) + ' ' + str(self.room_number)
 
 
 class Booking(models.Model):
@@ -82,19 +82,48 @@ class Booking(models.Model):
     room_id = models.ForeignKey(Room, on_delete=models.CASCADE)
 
     checkin_time = models.DateTimeField()
-    checkout_time = models.DateTimeField()
+    checkout_time = models.DateTimeField(blank=True)
 
     class Meta:
         verbose_name = 'Booking'
         verbose_name_plural = 'Bookings'
 
+    def __str__(self):
+        return str(self.user_id) + ' ' + str(self.room_id) + str(self.checkin_time)
+
 
 class Image(models.Model):
-    room_number = models.ForeignKey(
-        Room, on_delete=models.CASCADE, related_name='images')
+    EXECUTIVE = 'EXECUTIVE'
+    DELUXE = 'DELUXE'
+    PRESIDENTIAL = 'PRESIDENTIAL'
+    BUSINESS = 'BUSINESS'
+
+    ROOM_TYPE_CHOICES = (
+        (EXECUTIVE, 'Executive'),
+        (DELUXE, 'Deluxe'),
+        (PRESIDENTIAL, 'Presidential'),
+        (BUSINESS, 'Business'),
+    )
+    room_type = models.CharField(max_length=100, choices=ROOM_TYPE_CHOICES,
+                                 help_text="Enter the room type for which you want to add an image")
     image_id = models.AutoField(primary_key=True)
-    url = models.CharField(max_length=1000)
+    image = CloudinaryField('room image', blank=True)
     description = models.CharField(blank=True, max_length=1000)
 
     class Meta:
-        unique_together = (('image_id', 'room_number'),)
+        verbose_name = 'Image'
+        verbose_name_plural = 'Images'
+
+
+class Rating(models.Model):
+    user_id = models.ForeignKey(User, on_delete=models.CASCADE, related_name='reviews', primary_key=True)
+    rating = models.IntegerField()
+    description = models.CharField(max_length=1000)
+    date = models.DateField(default=timezone.now)
+
+    class Meta:
+        verbose_name = 'Rating'
+        verbose_name_plural = 'Ratings'
+
+    def __str__(self):
+        return str(self.user_id) + ' ' + str(self.rating)
