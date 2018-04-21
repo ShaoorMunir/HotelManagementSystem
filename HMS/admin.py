@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth.models import User
-from .models import Room, Rating, Booking, Image, Profile
+from .models import Room, Rating, Booking, Image, Profile, RoomType
 
 # Register your models here.
 class ProfileInline(admin.StackedInline):
@@ -25,6 +25,7 @@ admin.site.unregister(User)
 admin.site.register(User, CustomUserAdmin)
 
 admin.site.register(Room)
+admin.site.register(RoomType)
 admin.site.register(Rating)
 admin.site.register(Booking)
 admin.site.register(Image)
