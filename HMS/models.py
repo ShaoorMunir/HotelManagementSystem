@@ -19,7 +19,7 @@ class Profile(models.Model):
     user_type = models.IntegerField(choices=USER_TYPE_CHOICES)
     location = models.CharField(max_length=30, blank=True)
     birth_date = models.DateField(null=True, blank=True)
-    profile_pic = CloudinaryField('profile picture')
+    profile_pic = CloudinaryField('profile picture', blank=True)
 
 
 @receiver(post_save, sender=User)
